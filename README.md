@@ -46,10 +46,10 @@ go mod tidy
 ```
 
 3. Set up MySQL database and user:
-
+> ⚠️ **Important:** Before running the server, make sure to update `internal/database/db.go` with **your own MySQL username, password, host, and database name**.
 ```sql
-CREATE DATABASE crm_db;
-GRANT ALL PRIVILEGES ON crm_db.* TO 'shashank'@'localhost' IDENTIFIED BY 'your_password';
+CREATE DATABASE databse_name;
+GRANT ALL PRIVILEGES ON leads.* TO 'username'@'localhost' IDENTIFIED BY 'your_password';
 FLUSH PRIVILEGES;
 ```
 
@@ -76,3 +76,4 @@ Server runs on `http://localhost:3000`.
 License
 
 MIT License
+
