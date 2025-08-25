@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/Shashank-raj1907/go-fiber-crm-basic/internal/database"
-	"github.com/Shashank-raj1907/go-fiber-crm-basic/internal/lead"
+	"github.com/shraj19/go-fiber-crm-basic/internal/database"
+	"github.com/shraj19/go-fiber-crm-basic/internal/lead"
 )
 
 func main() {
