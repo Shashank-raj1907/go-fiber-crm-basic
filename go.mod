@@ -1,4 +1,4 @@
-module github.com/Shashank-raj1907/go-fiber-crm-basic
+module github.com/shraj19/go-fiber-crm-basic
 
 go 1.25.0
 
