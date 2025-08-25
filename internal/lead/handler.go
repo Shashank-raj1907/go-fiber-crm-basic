@@ -3,7 +3,7 @@ package lead
 import (
 	"strconv"
 
-	"github.com/Shashank-raj1907/go-fiber-crm-basic/internal/database"
+	"github.com/shraj19/go-fiber-crm-basic/internal/database"
 	"github.com/gofiber/fiber/v2"
 )
 
